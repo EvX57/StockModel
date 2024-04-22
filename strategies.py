@@ -399,7 +399,7 @@ def trade_rs(train, test, save_folder):
     plt.close()
 
 if __name__ == '__main__':
-    df = pd.read_csv('Data/sp500.csv')
+    df = pd.read_csv('sp500.csv')
     datapoints = list(df['Adj Close'])
     gl_dates = list(df['Date'])
 

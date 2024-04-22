@@ -24,6 +24,6 @@ def vis_metric(df_path, metric_name, y_label, title, save_path):
     plt.close()
 
 if __name__ == '__main__':
-    df_path = 'Data/sp500.csv'
+    df_path = 'sp500.csv'
 
-    vis_metric(df_path, 'Adj Close', 'Date', 'Adjusted Close Price ($)', 'S&P 500 Stock', 'Visualization/sp500.png')
+    vis_metric(df_path, 'Adj Close', 'Date', 'Adjusted Close Price ($)', 'S&P 500 Stock', 'sp500.png')
